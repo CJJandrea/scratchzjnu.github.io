@@ -11,7 +11,7 @@
 
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="MY-NOTE"><a href="#MY-NOTE" class="headerlink" title="MY NOTE"></a>MY NOTE</h2><p>###（一）Linux中的分区与目录<br>我们了解的Windows系统有分区的概念，例如系统安装在C盘，资料存在D盘。但Linux中没有盘符的概念，它只有一个根目录，也就是/，所有的文件和设备都是挂载在它下面的目录——没错，例如光驱这样的设备也是以目录的形式访问的。</p>
+        <h2 id="MY-NOTE">老师，不容易啊</h2><p>（一）Linux中的分区与目录<br>我们了解的Windows系统有分区的概念，例如系统安装在C盘，资料存在D盘。但Linux中没有盘符的概念，它只有一个根目录，也就是/，所有的文件和设备都是挂载在它下面的目录——没错，例如光驱这样的设备也是以目录的形式访问的。</p>
 <ul>
 <li>以下是常用目录速查<pre><code>- /: 根目录，一般只存放目录，一个系统有且仅有一个根目录。
 - /bin、/sbin： 可执行二进制文件的目录，区别是/bin是标准用户可以使用的命   令，而/sbin是超级管理员使用的命令，s is for super你就明白了。
@@ -20,7 +20,7 @@
 - /etc： 系统配置文件的存放目录，比如说，我们之前在可视的环境下修改了更新的服务器源地址，实际上那个操作只是修改了/etc/apt/sources.list 这个配置文件，你以后熟悉了，也可以直接改这个文件。 
 - /home，也就是家目录，所有用户的文档都是存在这个目录下的，不同用户以自己的用户名区别，比如zjlester的家目录就是/home/zjlester, ilester的家目录就是/home/ilester，这倒很好理解，就是一个楼里住着很多住户，家目录里还有不同的文件，例如“下载”、“桌面”等等，这就好比我们的家面积还是很大的，有很多房间。</code></pre></li>
 </ul>
-<p>###（二）Linux终端使用的几个小技巧</p>
+<p>（二）Linux终端使用的几个小技巧</p>
 <ul>
 <li>具体如下：<pre><code>放大字体：ctrl+shift+=
 缩小字体：ctrl + -
@@ -28,7 +28,7 @@
 历史命令调用：上下光标
 中止当前程序： Ctrl +C （比如说，Linux也有一个ping，但与Windows下cmd中默认发送四个数据包不同的是，Linux中的ping会傻傻的一直发数据包，所以以前也有人觉得它不是ping 而是有bing， 那这个时候要中止它就是万能的CTRL+Ｃ了）</code></pre></li>
 </ul>
-<p>###（三）Linux的一些实用命令</p>
+<p>（三）Linux的一些实用命令</p>
 <ul>
 <li>1）通配符<pre><code>*:任意字符，包括0
 ?:任意一个字符，至少1个
@@ -66,7 +66,7 @@ $：行的结尾</code></pre></li>
    示例： ls -alh ~ | grep P
    远程管理相关命令</code></pre></li>
 </ul>
-<p>###（四）Ctrl+Alt+T:启动终端</p>
+<p>（四）Ctrl+Alt+T:启动终端</p>
 <ul>
 <li><p>1）shutdown：</p>
 <pre><code>1、默认一分钟关机
